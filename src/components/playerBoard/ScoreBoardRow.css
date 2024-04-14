@@ -1,0 +1,16 @@
+.scoreBoardRow {
+  display: grid;
+  grid-template-rows: var(--playerBoardButtonContainerHeight);
+  grid-template-columns:
+    var(--colourScoreTotalSign)
+    repeat(
+      5,
+      var(--colourScoreContainerWidth) var(--colourScoreArthimeticOperator)
+    )
+    var(--totalScoreBox);
+  background-color: var(--medium-grey);
+}
+
+.smallFont {
+  font-size: 8px;
+}

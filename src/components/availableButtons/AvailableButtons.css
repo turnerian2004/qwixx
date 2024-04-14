@@ -1,0 +1,6 @@
+.availableButtons {
+  display: grid;
+  grid-template-columns: repeat(9, var(--availableNumberContainerColumn));
+  grid-template-rows: (--availableNumberContainerRow);
+  background-color: aqua;
+}

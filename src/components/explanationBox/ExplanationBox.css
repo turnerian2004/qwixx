@@ -1,0 +1,16 @@
+.explanationBoxContainer {
+  display: grid;
+  grid-column-start: 3;
+  grid-row-start: 5;
+  grid-template-columns: repeat(3, calc(var(--explanationBoxColumn)));
+  grid-template-rows: var(--explanationBoxRow);
+  background-color: var(--main-beige);
+}
+
+.explanationBox {
+  display: grid;
+  grid-template-columns: calc(var(--explanationBoxColumn) * 0.95);
+  grid-template-rows: calc(var(--explanationBoxRow) * 0.95);
+  text-align: left;
+  font-size: 9px;
+}

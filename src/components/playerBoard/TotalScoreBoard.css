@@ -1,0 +1,19 @@
+.totalScoreBoard {
+  border-radius: 5px;
+  background-color: white;
+}
+
+.penaltyScoreBoard {
+  display: grid;
+  grid-template-columns: calc(var(--colourScoreContainerWidth) * 0.7);
+  grid-template-rows: calc(var(--colourScoreContainerHeight) * 0.7);
+  border: 3px solid var(--light-grey);
+  background-color: white;
+}
+
+.totalScoreBoard {
+  display: grid;
+  grid-template-columns: calc(var(--colourScoreContainerWidth) * 1.4);
+  grid-template-rows: calc(var(--colourScoreContainerHeight) * 0.7);
+  border: 3px solid black;
+}

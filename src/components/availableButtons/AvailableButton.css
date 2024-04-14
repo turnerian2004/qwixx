@@ -1,0 +1,66 @@
+.availableButtonContainer {
+  display: grid;
+  grid-template-columns: var(--availableNumberContainerColumn);
+  grid-template-rows: var(--availableNumberContainerRow);
+}
+
+.availableButton {
+  display: grid;
+  grid-template-columns: calc(var(--availableNumberContainerColumn) * 0.7);
+  grid-template-rows: calc(var(--availableNumberContainerRow) * 0.7);
+}
+
+.redAvailableButtonContainer {
+  display: grid;
+  background-color: var(--medium-red);
+}
+
+.redAvailableButton {
+  display: grid;
+  background-color: var(--light-red);
+  border-radius: 5px;
+}
+
+.yellowAvailableButtonContainer {
+  display: grid;
+  background-color: var(--medium-yellow);
+}
+
+.yellowAvailableButton {
+  display: grid;
+  background-color: var(--light-yellow);
+  border-radius: 5px;
+}
+
+.greenAvailableButtonContainer {
+  display: grid;
+  background-color: var(--medium-green);
+}
+
+.greenAvailableButton {
+  display: grid;
+  background-color: var(--light-green);
+  border-radius: 5px;
+}
+
+.blueAvailableButtonContainer {
+  display: grid;
+  background-color: var(--medium-blue);
+}
+
+.blueAvailableButton {
+  display: grid;
+  background-color: var(--light-blue);
+  border-radius: 5px;
+}
+
+.publicAvailableButtonContainer {
+  display: grid;
+  background-color: black;
+}
+
+.publicAvailableButton {
+  display: grid;
+  background-color: white;
+  border-radius: 5px;
+}

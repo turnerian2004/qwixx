@@ -1,0 +1,27 @@
+.penaltyBox {
+  display: grid;
+  grid-template-columns: calc(var(--penaltyBoxContainerWidth) * 0.6);
+  grid-template-rows: calc(var(--playerBoardButtonContainerHeight) * 0.3);
+  border: 2px var(--dark-grey) solid;
+  background-color: var(--light-grey);
+  border-radius: 5px;
+}
+
+.CrossOffBox::before,
+.CrossOffBox::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 18px;
+  background-color: black;
+}
+
+.CrossOffBox::before {
+  background-color: black;
+  transform: rotate(45deg);
+}
+
+.CrossOffBox::after {
+  background-color: black;
+  transform: rotate(-45deg);
+}

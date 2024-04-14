@@ -1,0 +1,67 @@
+.playerBoardButtonOuterContainer {
+  display: grid;
+  grid-template-columns: var(--playerBoardButtonContainerWidth);
+  grid-template-rows: var(--playerBoardButtonContainerHeight);
+}
+
+.playerBoardButtonOuterContainer:active {
+  transform: scale(0.95);
+}
+
+.redPlayerBoardButtonOuterContainer {
+  background-color: var(--medium-red);
+}
+
+.yellowPlayerBoardButtonOuterContainer {
+  background-color: var(--medium-yellow);
+}
+
+.greenPlayerBoardButtonOuterContainer {
+  background-color: var(--medium-green);
+}
+
+.bluePlayerBoardButtonOuterContainer {
+  background-color: var(--medium-blue);
+}
+
+.playerBoardButtonInnerContainer {
+  display: grid;
+  grid-template-columns: calc(0.8 * var(--playerBoardButtonContainerWidth));
+  grid-template-rows: calc(0.7 * var(--playerBoardButtonContainerHeight));
+  border-radius: 5px;
+}
+
+.redPlayerBoardButtonInnerContainer {
+  background-color: var(--light-red);
+}
+
+.yellowPlayerBoardButtonInnerContainer {
+  background-color: var(--light-yellow);
+}
+
+.greenPlayerBoardButtonInnerContainer {
+  background-color: var(--light-green);
+}
+
+.bluePlayerBoardButtonInnerContainer {
+  background-color: var(--light-blue);
+}
+
+.CrossOffButton::before,
+.CrossOffButton::after {
+  content: "";
+  position: absolute;
+  width: 5px;
+  height: 30px;
+  background-color: black;
+}
+
+.CrossOffButton::before {
+  background-color: black;
+  transform: rotate(45deg);
+}
+
+.CrossOffButton::after {
+  background-color: black;
+  transform: rotate(-45deg);
+}
