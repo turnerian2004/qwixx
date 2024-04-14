@@ -1,5 +1,0 @@
-.die {
-  display: grid;
-  grid-template-columns: repeat(3, var(--diceContainerColumn));
-  grid-template-rows: repeat(2, var(--diceContainerRow));
-}

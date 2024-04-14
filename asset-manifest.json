@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/qwixx/static/css/main.1de4226e.css",
+    "main.js": "/qwixx/static/js/main.2f544c71.js",
+    "static/media/blue-open.png": "/qwixx/static/media/blue-open.ce569174b6df204989df.png",
+    "static/media/green-open.png": "/qwixx/static/media/green-open.3d7bff13ecf363163b3b.png",
+    "static/media/red-open.png": "/qwixx/static/media/red-open.f8f87847f143034dad91.png",
+    "static/media/yellow-open.png": "/qwixx/static/media/yellow-open.3aa56e62edbd804d0922.png",
+    "index.html": "/qwixx/index.html",
+    "main.1de4226e.css.map": "/qwixx/static/css/main.1de4226e.css.map",
+    "main.2f544c71.js.map": "/qwixx/static/js/main.2f544c71.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1de4226e.css",
+    "static/js/main.2f544c71.js"
+  ]
+}
