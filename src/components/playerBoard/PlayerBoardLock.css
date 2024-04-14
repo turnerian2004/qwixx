@@ -1,0 +1,20 @@
+.LockContainer {
+  width: var(--playerBoardButtonContainerWidth);
+  height: var(--playerBoardButtonContainerHeight);
+}
+
+.red {
+  background-color: var(--medium-red);
+}
+
+.yellow {
+  background-color: var(--medium-yellow);
+}
+
+.green {
+  background-color: var(--medium-green);
+}
+
+.blue {
+  background-color: var(--medium-blue);
+}

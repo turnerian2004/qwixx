@@ -1,0 +1,13 @@
+.rollDiceButton {
+  display: grid;
+  grid-template-columns: calc(var(--CommandCentreColumn) * 0.8);
+  grid-template-rows: calc(var(--commandCentreRow) * 0.6);
+  background-color: white;
+  border: 1px solid var(--blue);
+  color: var(--blue);
+  border-radius: 5px;
+}
+
+.rollDiceButton:active {
+  transform: scale(0.95);
+}

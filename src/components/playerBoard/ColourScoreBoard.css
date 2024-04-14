@@ -1,0 +1,26 @@
+.colourScoreBoard {
+  display: grid;
+  grid-template-columns: calc(var(--colourScoreContainerWidth) * 0.7);
+  grid-template-rows: calc(var(--colourScoreContainerHeight) * 0.7);
+  border-radius: 5px;
+}
+
+.redScoreBoard {
+  border: 3px solid var(--medium-red);
+  background-color: var(--light-red);
+}
+
+.yellowScoreBoard {
+  border: 3px solid var(--medium-yellow);
+  background-color: var(--light-yellow);
+}
+
+.greenScoreBoard {
+  border: 3px solid var(--medium-green);
+  background-color: var(--light-green);
+}
+
+.blueScoreBoard {
+  border: 3px solid var(--medium-blue);
+  background-color: var(--light-blue);
+}
